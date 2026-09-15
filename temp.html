@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MARS Cosmetics — Amandeep Kaur</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --yellow:#f5d400;
+    --black:#111111;
+    --white:#ffffff;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:'Inter', Arial, sans-serif;
+    color:var(--black);
+    background:var(--white);
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ---------- CASE STUDY (matches portfolio.html) ---------- */
+  .project-page{
+    position:relative;
+    max-width:720px;
+    margin:0 auto;
+    padding:40px 24px 80px;
+  }
+  .back-link{
+    display:inline-block;
+    margin-bottom:40px;
+    font-size:0.9rem;
+    font-weight:500;
+    text-decoration:none;
+    color:#666;
+    cursor:pointer;
+    transition:color .2s ease;
+  }
+  .back-link:hover{ color:var(--yellow); }
+
+  .project-page h1{
+    font-family:'Inter', Arial, sans-serif;
+    font-size:2.8rem;
+    font-weight:700;
+    letter-spacing:-1px;
+    line-height:1.1;
+    margin-bottom:12px;
+  }
+
+  .project-subtitle{
+    font-size:1.15rem;
+    line-height:1.65;
+    margin-bottom:8px;
+    color:#333;
+  }
+  .project-meta{
+    font-size:0.95rem;
+    line-height:1.65;
+    color:#666;
+    margin-bottom:48px;
+    padding-bottom:32px;
+    border-bottom:1px solid #eee;
+  }
+  .project-meta strong{
+    color:var(--black);
+    font-weight:600;
+  }
+  .project-point{
+    margin-bottom:32px;
+  }
+  .project-point h3{
+    font-size:1rem;
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  .project-point p{
+    color:#444;
+    line-height:1.65;
+    margin-bottom:16px;
+  }
+  .project-point ul{
+    list-style:none;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    margin-top:12px;
+  }
+  .project-point li{
+    font-size:0.95rem;
+    line-height:1.65;
+    color:#444;
+  }
+  .project-table-wrap{
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    margin-top:16px;
+  }
+  .project-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:0.9rem;
+    min-width:600px;
+  }
+  .project-table th,
+  .project-table td{
+    text-align:left;
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+    vertical-align:top;
+    line-height:1.5;
+    color:#444;
+  }
+  .project-table th{
+    font-weight:600;
+    color:var(--black);
+    padding-bottom:8px;
+  }
+  .project-table td{
+    padding-right:16px;
+  }
+
+  /* Media Elements */
+  .project-media-auto{
+    width:100%;
+    height:auto;
+    display:block;
+    margin-top:48px;
+    border-radius:2px;
+  }
+  .media-caption{
+    font-size:0.8rem;
+    color:#666;
+    margin-top:8px;
+    font-style:italic;
+  }
+  .project-gallery-row{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:12px;
+    margin-top:48px;
+  }
+  .project-gallery-row img,
+  .project-gallery-row video{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:2px;
+    background:#111;
+  }
+
+  @media (max-width:600px){
+    .project-page{ padding:28px 20px 60px; }
+    .project-page h1{ font-size:1.9rem; }
+    .project-subtitle{ font-size:1rem; }
+    .project-gallery-row{ grid-template-columns:1fr !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="project-page">
+
+  <div class="project-point">
+    <h3>The Strategy (Get / To / By)</h3>
+    <ul>
+      <li><strong>GET:</strong> STEM content creators who beauty brands usually overlook.</li>
+      <li><strong>TO:</strong> Unbox and organically endorse MARS Cosmetics.</li>
+      <li><strong>BY:</strong> Sending a custom PR package shaped like the planet Mars.</li>
+    </ul>
+  </div>
+
+  <div class="project-point">
+    <h3>The Consumer Journey</h3>
+    <div class="project-table-wrap">
+      <table class="project-table">
+        <thead>
+          <tr>
+            <th>Phase</th>
+            <th>The Barrier</th>
+            <th>The Comms Task</th>
+            <th>Core Channels</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Living</strong> (Awareness)</td>
+            <td>Beauty ambassadors are almost always conventional beauty influencers first — STEM creators, or anyone who doesn't fit that mold, aren't seen as the obvious choice for beauty brands.</td>
+            <td>Show up where no beauty brand has before. Send STEM creators "a delivery from Mars" and make them feel like the first choice, not an afterthought.</td>
+            <td>Influencer Seeding, Unboxing Videos</td>
+          </tr>
+          <tr>
+            <td><strong>Looking</strong> (Consideration)</td>
+            <td>Beauty is still pictured as one narrow type of person — so a STEM creator repping makeup feels unexpected, and consumers aren't sure what to make of it.</td>
+            <td>Use the MARS pun to go full space-themed — turn the packaging itself into proof that beauty can stretch beyond the usual mold.</td>
+            <td>Social Media (Behind-the-Scenes Unboxing), Instagram Reels</td>
+          </tr>
+          <tr>
+            <td><strong>Buying</strong> (Conversion)</td>
+            <td>Anyone outside the typical beauty image doesn't automatically see themselves as "a beauty person" — including STEM girls.</td>
+            <td>Widen what "beauty" looks like beyond one box, so "every kind of baddie" feels seen — even the one studying STEM.</td>
+            <td>D2C E-commerce Website, Influencer Affiliate Links</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="project-point">
+    <h3>Key Performance Indicator</h3>
+    <p>A high volume of organic unboxing content and creator commentary from STEM and non-traditional influencers, directly correlating to a measurable spike in branded search volume and site traffic from audiences who wouldn't normally look up a makeup brand.</p>
+  </div>
+
+  <img class="project-media-auto" src="mars/pr.gif" alt="MARS Cosmetics PR unboxing GIF">
+
+  <div class="project-gallery-row">
+    <img src="mars/16.png" alt="MARS Cosmetics 16">
+    <img src="mars/17.png" alt="MARS Cosmetics 17">
+    <img src="mars/my version of touching grass (1).png" alt="MARS Cosmetics — my version of touching grass">
+  </div>
+
+  <img class="project-media-auto" src="mars/pr moodboard.png" alt="MARS Cosmetics moodboard">
+  <div class="media-caption">Moodboard</div>
+
+</div>
+
+</body>
+</html>
